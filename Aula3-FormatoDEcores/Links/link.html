@@ -5,6 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link</title>
+      <style>
+        body {
+            
+        }
+        h1{
+            color: hotpink;
+        }
+        /* Link normal */
+        a:link {
+            color: blue;
+            /*text-decoration: none;*/
+         }
+         /* Link visitado */
+        a:visited {
+            color: yellow;
+            
+         }
+         /*Quando o mouse passa por cima do link */
+        a:hover {
+            color: red;
+          /* text-decoration: underline;*/
+         }
+         /* Enquanto o link é clicado */
+         a:active {
+            color: orange;
+         }
+    </style>
 </head>
 
 <body>
@@ -185,6 +212,14 @@
         <hr>
         <a href="https://www.google.com" target = "_blank ">Ir para o Google</a>
         <br>
+        <section style="text-align: center;">
+            <h2> Voltar ao topo </h2>
+            <p><a href="#topo">Voltar ao topo</a></p>
+        </section>
+        <hr>
+        <section style="text-align: center;">
+            <h2> Exemplo de abertura de arquivo no navegador</h2>
+            <p><a href="../assets/neymar.pdf" target="_blank">Abrir arquivo PDF</a></p>
     </main>
 </body>
 
