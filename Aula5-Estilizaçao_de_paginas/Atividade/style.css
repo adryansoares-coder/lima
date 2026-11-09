@@ -1,0 +1,172 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#cabecalho {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+
+    padding: 35px;
+    border-bottom: 5px solid #9b30ff;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    color: #9b30ff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+nav {
+    background-color: #222222;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: white;
+}
+
+
+nav a:visited {
+    color: #d8b4fe;
+}
+
+
+nav a:hover {
+    background-color: #9b30ff;
+    color: white;
+}
+
+
+nav a:active {
+    background-color: #4b0082;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #1e1e1e;
+
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 2px solid #6a0dad;
+
+    border-radius: 10px;
+}
+
+
+.texto {
+    color: #dddddd;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.imagem {
+    display: block;
+    width: 600px;
+    margin: 15px auto;
+
+    border: 4px solid #9b30ff;
+    border-radius: 10px;
+}
+
+
+.lista {
+    margin-top: 15px;
+    padding-left: 30px;
+
+    list-style-type: square;
+}
+
+.lista li {
+    margin-bottom: 10px;
+    color: #dddddd;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+
+th,
+td {
+    border: 1px solid #6a0dad;
+    padding: 12px;
+    text-align: center;
+}
+
+
+th {
+    background-color: #6a0dad;
+    color: white;
+}
+
+
+tr:nth-child(even) {
+    background-color: #292929;
+}
+
+tr:nth-child(odd) {
+    background-color: #1e1e1e;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+}
